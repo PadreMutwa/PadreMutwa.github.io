@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Roger's "Project: Event invite"</title>
+        <style>
+            h1{
+                text-align:center;
+                background-color:rgb(224, 220, 221);
+            }
+            .invite{
+                color:rgb(73, 181, 65);
+            }
+            #details{
+                background-color:rgb(242, 203, 240);
+            }
+            #address{
+                font-family:"Arial";
+                font-weight:bold;
+            }
+            .animals{
+                position:relative;
+                margin:10px;
+                width:70%;
+                border:5px ridge red;
+                padding:3px;
+            }
+            #guests{
+                width:50%;
+                height:120px;
+                overflow:auto;
+            }
+            #prohibit{
+                color:rgb(242, 17, 51);
+            }
+            #goods{
+                background-color:rgb(171, 235, 153);
+            }
+            #allow{
+                background-color:rgb(232, 130, 232);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're <span class="invite">invited!</span></h1>
+        <h2>Roger's Final Project Party!</h2>
+        
+        <div id="details">
+        <h3>The details:</h3>
+        Roger Mutwa, has officially <span class="invite">invited</span> you to join in this momentous occasion. Through hard work and preserverence, Roger has finaly reached his final project and <span class="invite">invites</span> you to share in this achievement.
+        
+        <ul>
+            <li><span id="address">Address</span>: 113 Belmain Court, Bellville</li>
+            <li>Will be a variety of food served at the function</li>
+            <li>Pool will be avaiable, so bring extra clothing and towels</li>
+            <li>At 7pm will commence the cheers and the songs</li>
+        </ul>
+        </div>
+        <div id="guests">
+        <h3>Guest-list</h3>
+        <ol>
+            <li>John</li>
+            <li>Glorian</li>
+            <li>Renate</li>
+            <li>Brian</li>
+            <li>Keren</li>
+            <li>Mma Bena</li>
+            <li>Mama La Joice</li>
+            <li>Father Nkululeko</li>
+            <li>Peter</li>
+            <li>Maria</li>
+            <li>Robert</li>
+            <li>Marcus</li>
+            <li>David</li>
+        </ol>
+        </div>
+        
+        <div id="allow">
+        <h3>Animals Allowed</h3>
+        <ul>
+            <li>Dogs</li>
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/dogs_collies.png" class="animals">
+            <li>Cats</li>
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/cat.png" class="animals">
+            <li>Parrot</li>
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/birds_rainbow-lorakeets.png" class="animals">
+        </ul>
+        </div>
+        
+        <div id="goods">
+        <h3><span id="prohibit">Prohibited</span> Goods</h3>
+        <ol>
+            <li>Drugs</li>
+            <li>Alcohol</li>
+            <li>Weapons</li>
+        </ol>
+        </div>
+    </body>
+</html>
